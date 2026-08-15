@@ -1,15 +1,11 @@
 # fabioarruda
 
-Site de **Fábio Arruda** — pré-candidato a Deputado Estadual por São Paulo (Republicanos).
-Domínio definido: **`fabioarruda10235.com.br`**, contratação em andamento no Registro.br
-(informado pelo CEO em 15/08/2026). A pasta local se chama `fabioarruda` — pode ser renomeada
-quando o registro sair. `CNAME` já está no repositório, pronto para quando o DevOps configurar o
-Cloudflare — mesmo fluxo usado no `bombeiroflaviosantos.com.br`.
+Site de **Fábio Arruda** — candidato a Deputado Estadual por São Paulo (Republicanos), nº 10235.
+Domínio: **`fabioarruda10235.com.br`**, registrado, com DNS apontado e certificado ativo desde
+15/08/2026 (DevOps).
 
-Hoje no ar apenas a **página de espera** (uma tela, sem navegação), V1 inicial, enquanto o site
-definitivo é construído. Commit inicial feito e remote configurado
-(`github.com/Jonathanmkt/fabioarruda10235.com.br`) em 15/08/2026 — falta só o push (exclusivo do
-CEO) e o apontamento de DNS no Cloudflare.
+**No ar**, publicado — ainda como **página de espera** (uma tela, sem navegação), V1 inicial,
+enquanto o site definitivo é construído.
 
 ## Arquivos
 
@@ -23,7 +19,7 @@ CNAME               o domínio, exigido pelo GitHub Pages — pronto para o depl
 
 | Afirmação | Fonte |
 |---|---|
-| Pré-candidato a Deputado Estadual por São Paulo, Republicanos | Bio do Instagram `@fabioarrudasaopaulo` |
+| Candidato a Deputado Estadual por São Paulo, Republicanos | Bio do Instagram `@fabioarrudasaopaulo`; status "candidato" (não mais pré) confirmado pelo CEO em 15/08/2026 |
 | "Trabalho, experiência e compromisso com São Paulo" | Frase do próprio candidato, no Instagram |
 | Pedágio zero para caminhão que transporta alimentos | Bio do Instagram `@fabioarrudasaopaulo` |
 | Retrato | Foto de perfil pública do Instagram `@fabioarrudasaopaulo`, 150×150 px |
@@ -38,7 +34,5 @@ CNAME               o domínio, exigido pelo GitHub Pages — pronto para o depl
    Republicanos.
 3. **O retrato está em 150×150 px**, capturado do perfil público do Instagram. Ao receber a foto
    oficial, basta substituir `assets/fabio.jpg`.
-4. **Domínio `fabioarruda10235.com.br` confirmado pelo CEO, mas ainda em contratação** no
-   Registro.br.
-5. Commit inicial feito e remote configurado em 15/08/2026 — falta o push (exclusivo do CEO) e o
-   apontamento de DNS. DNS/Cloudflare entram quando o CEO acionar o `devops-infra`.
+4. `robots` mudou de `noindex, nofollow` para `index, follow` em 15/08/2026, quando o site saiu do
+   ar só interno e passou a ser publicado de verdade.
