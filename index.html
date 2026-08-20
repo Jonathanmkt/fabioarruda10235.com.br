@@ -200,6 +200,13 @@
     color:rgba(168,188,214,.78);   /* .58 reprovava AA (3,89:1); .72 e o minimo, .78 da margem */
     line-height:1.9;
   }
+  /* identificacao de quem financia o anuncio: exigida por Meta/Google para o rotulo */
+  footer .responsavel{
+    display:block;margin-top:8px;
+    text-transform:none;letter-spacing:.01em;
+    font-size:12.5px;line-height:1.5;
+    color:var(--texto-suave);
+  }
 
   @media (prefers-reduced-motion:reduce){
     *{transition:none!important;animation:none!important}
@@ -261,6 +268,8 @@
   <footer>
     fabioarruda10235.com.br<br>
     Fábio Arruda &middot; Republicanos &middot; São Paulo
+    <span class="responsavel">Site e anúncios de responsabilidade de Fábio Luiz de Arruda Garcia<br>
+    CNPJ da campanha 68.462.147/0001-37</span>
   </footer>
 
 </main>
